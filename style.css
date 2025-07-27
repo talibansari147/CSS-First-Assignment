@@ -1,0 +1,56 @@
+.container{
+    width: 300px;
+    box-shadow: 0 4px 20px rgb(45, 44, 44);
+    text-align: center;
+    border-radius: 20px;
+    background-color: blue;
+}
+.header{
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   background-color: blue;
+}
+.header img{
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     border: 4px solid blue;
+     padding-top: 40px;
+     padding-bottom: 40px;
+}
+.body{
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:white;
+}
+.body h2{
+   margin: 15px;
+    color: rgb(90, 89, 89);
+      font-family: Arial, Helvetica, sans-serif;
+}
+.body p{
+    color: rgb(90, 89, 89);
+    font-size: 15px;
+    padding: 1opx;
+    margin-bottom: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.body button{
+    padding: 10px 20px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.body button:hover{
+    background-color: rgb(7, 100, 239);
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
